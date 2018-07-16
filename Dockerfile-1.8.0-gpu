@@ -17,7 +17,8 @@ RUN apt-get update && \
         libtiff-dev \
         libjasper-dev \
         libavformat-dev \
-        libpq-dev
+        libpq-dev \
+	libgtk2.0-dev
 
 RUN pip install numpy
 
